@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "100623502142",
+    "project_id": "endeavor-1f826",
+    "storage_bucket": "endeavor-1f826.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100623502142:android:ffbd349b97b16320f63a6f",
+        "android_client_info": {
+          "package_name": "com.example.sololearn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "100623502142-3crq0ect1hv3gn3qj57cfvqhtqucrou7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC53BslukLg6wFjy0X-Oida5NXMLNCQbJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "100623502142-3crq0ect1hv3gn3qj57cfvqhtqucrou7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sololearn</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="fullname">FullName</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="pwd">PASSWORD</string>
+    <string name="next">NEXT</string>
+    <string name="forget">FORGET PASSWORD ?</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="inscrit">INSCRIT</string>
+    <string name="log">LOGIN</string>
+    <string name="change">CHANGE PASSWORD</string>
+    <string name="newUser">I DONT HAVE ACCOUNT</string>
+</resources>
