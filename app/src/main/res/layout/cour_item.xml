@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="60dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_cour"
+                android:alpha="0.1"
+                app:tint="#77000000" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="3dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/bg_cour"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgLogoNameItem"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/java_logo" />
+        <RelativeLayout
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_right"
+                android:alpha="0.3"
+                app:tint="#77000000" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bg_right"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_arrow_right_24"
+                app:tint="#F75F71"
+                android:padding="5dp"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_marginLeft="110dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/txtNameCourItem"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:text="Name Of Cour"
+                android:textAllCaps="true"
+                android:gravity="bottom"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="1dp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/txtAbnCourItem"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:textColor="#989898"
+                android:textSize="15sp"
+                android:text="30 SHARE"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

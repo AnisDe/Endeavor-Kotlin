@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:background="@drawable/background_border2">
+
+
+        <TextView
+            android:id="@+id/textNameFC"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="NAME OF COUR"
+            android:textSize="15dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorSecondary"
+            />
+
+        <ProgressBar
+            android:id="@+id/progressBarFC"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@drawable/background_border"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
