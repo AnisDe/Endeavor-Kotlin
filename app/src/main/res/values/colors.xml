@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimaryDark">#B03CB8</color>
+    <color name="colorPrimary">#D67EC0</color>
+    <color name="colorPrimaryLight">#C7A2CA</color>
+
+
+    <color name="colorSecondary">#2196F3</color>
+    <color name="colorSecondaryDark">#1B8AE3</color>
+    <color name="colorSecondaryLight">#5196D3</color>
+
+    <color name="colorPrimary2">#6200EE</color>
+    <color name="colorSecondary2">@color/teal_200</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryFade">#00000000</color>
+    <color name="colorPrimaryFade2">#F149B692</color>
+
+    <color name="hintTextColor">#787878</color>
+    <color name="transparent">#00000000</color>
+    <color name="pink">#F6DEDE</color>
+    <color name="youtube">#C64141</color>
+    <color name="gray">#f5f5f5</color>
+    <color name="darkGray">#3A3939</color>
+    <color name="yellow">#FF9A00</color>
+
+    <color name="indigo_a701">#2642fc</color>
+    <color name="indigo_a400">#3d57fa</color>
+    <color name="indigo_A400">#4a61fa</color>
+    <color name="indigo_a700">#1433ff</color>
+
+
+    <color name="colorAccent">#000000</color>
+    <color name="card_color_1">#FFCA28</color>
+    <color name="card_color_2">#7986CB</color>
+    <color name="card_color_3">#69F0AE</color>
+    <color name="color_card_4">#FF8A65</color>
+    <color name="color_card_5">#BA68C8</color>
+    <color name="color_card_6">#42A5F5</color>
+    <color name="color_card_7">#FFA726</color>
+    <color name="color_card_8">#4CAF50</color>
+    <color name="color_card_9">#F48FB1</color>
+    <color name="color_card_10">#D4E157</color>
+    <color name="main_color">#FFCA28</color>
+    <color name="box_color_1">#7E57C2</color>
+    <color name="box_color_2">#66BB6A</color>
+    <color name="box_color_3">#8D6E63</color>
+    <color name="box_color_4">#ef5350</color>
+
+</resources>

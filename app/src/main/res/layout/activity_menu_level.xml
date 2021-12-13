@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.MenuLevelActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imagelevel"
+            android:layout_width="215dp"
+            android:layout_height="254dp"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="66dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/ic_appicon" />
+
+        <Button
+            android:id="@+id/ButtonLevel1"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/rectangle_gradient_s_indigo_a400_e_indigo_a700_radius_28"
+            android:enabled="true"
+            android:foreground="@drawable/shapes_button_signin_up"
+            android:text="LEVEL 1"
+            app:iconGravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:id="@+id/ButtonLevel2"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/rectangle_gradient_s_indigo_a400_e_indigo_a700_radius_28"
+            android:enabled="true"
+            android:foreground="@drawable/shapes_button_signin_up"
+            android:text="LEVEL 2"
+            app:iconGravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:id="@+id/ButtonLevel3"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/rectangle_gradient_s_indigo_a400_e_indigo_a700_radius_28"
+            android:enabled="true"
+            android:foreground="@drawable/shapes_button_signin_up"
+            android:text="LEVEL 3"
+            app:iconGravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:id="@+id/ButtonLevel4"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="66dp"
+            android:background="@drawable/rectangle_gradient_s_indigo_a400_e_indigo_a700_radius_28"
+            android:enabled="true"
+            android:foreground="@drawable/shapes_button_signin_up"
+            android:text="LEVEL 4"
+            app:iconGravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.23"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraint_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LogActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/gradiant_splash2"
+        tools:context=".ui.activity.FirstActivity"
+        >
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="30dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/python_logo" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/LayoutEmailLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="@string/email"
+            app:errorEnabled="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profilePic"
+            app:startIconDrawable="@drawable/ic_email"
+            app:startIconTint="@color/colorSecondary2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtEmailLog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border2"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/LayoutPwdLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:errorEnabled="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LayoutEmailLog"
+            app:startIconDrawable="@drawable/ic_key"
+            app:startIconTint="@color/colorSecondary2">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txtPwdLog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background_border2"
+                android:hint="@string/pwd"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <CheckBox
+            android:id="@+id/cbRememberMe"
+            android:layout_width="353dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:text="Remember Me"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/LayoutPwdLog" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLoginLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/log"
+            android:textSize="18sp"
+            app:backgroundTint="@color/colorSecondaryDark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbRememberMe" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnForgetLog"
+            android:layout_width="349dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:text="@string/forget"
+            android:textAlignment="viewStart"
+            android:textColor="#009688"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:backgroundTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnLoginLog" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnInscitLog"
+            android:layout_width="349dp"
+            android:layout_height="37dp"
+            android:layout_margin="10dp"
+            android:text="@string/newUser"
+            android:textAlignment="viewStart"
+            android:textColor="#009688"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:backgroundTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnForgetLog" />
+
+        <LinearLayout
+            android:id="@+id/lImage"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:weightSum="2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/btnInscitLog">
+
+
+            <ImageView
+                android:id="@+id/imgGOOG"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/google_logo" />
+
+            <ImageView
+                android:id="@+id/ingFB"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/facebook_logo" />
+        </LinearLayout>
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:indeterminate="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lImage"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

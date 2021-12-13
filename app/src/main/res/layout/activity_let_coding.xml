@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LetCodingActivity">
+
+
+    <ImageView
+        android:id="@+id/imageCoding"
+        android:layout_width="215dp"
+        android:layout_height="254dp"
+        android:layout_marginBottom="400dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_appicon" />
+
+    <TextView
+        android:id="@+id/textViewtest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageCoding"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <Button
+        android:id="@+id/ButtonGO"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/rectangle_gradient_s_indigo_a400_e_indigo_a700_radius_28"
+        android:enabled="true"
+        android:foreground="@drawable/shapes_button_signin_up"
+        android:text="LET'S GO CODING"
+        app:iconGravity="end"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewtest" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
